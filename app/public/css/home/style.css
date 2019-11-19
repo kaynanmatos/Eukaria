@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@font-face {
+	font-family: "Aqua";
+	src: url("../../fontes/aqua.ttf");
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+body{
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	perspective: 1px;
+    transform-style: preserve-3d;
+}
+
+header{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	transform: translateZ(-1px) scale(2);
+  	z-index: -1;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.logo{
+	width: 8%;
+	/*height: 10%;*/
+	opacity: 1;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	cursor: pointer;
+}
+
+
+.symbol{
+	/*border: 1px solid blue;*/
+	/*background: #343252;*/
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	z-index: 2;
+	/*border-radius: 50%;*/
+	display: flex;
+	justify-content: center;
+}
+
+.element{
+	height: 8px;
+	width: 50px;
+	background: #6B25F2;
+	margin: 3px;
+	z-index: -2;
+}
+
+.hamburguer{
+	/*width: 60px;*/
+	/*height: 60px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sec1{
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	width: 50%;
+	/*border: 1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.apr{
+	/*width: 200px;
+	height: 200px;*/
+	/*border: 1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.sec2{
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: 50%;
+	background-image: url(../../imgs/dna.svg);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: 80%;
+	z-index: -1;
+	/*border: 1px solid green;*/
+}
+.welcome_1{
+	font-family: 'Aqua';
+	font-size: 66.6pt;
+}
+.welcome_2{
+	font-family: 'Aqua';
+	font-size: 42pt;
+	margin-bottom: 10px;
+}
+.welcome_3{
+	font-family: 'Aqua';
+	font-size: 20.9pt;
+}
+
+main{
+	display: block;
+	z-index: 1;
+	background: #0f0521;
+	/*background: black;*/
+}
+.apresentacao{
+	width: 100vw;
+	padding: 10px;
+	padding-bottom: 100px;
+	padding-top: 20px;
+	margin-top: 20px;
+	color: white;
+	background: #0f0521;
+	/*background: black;*/
+	/*border: 1px solid yellow;*/
+}
+
+.titulo{
+	text-align: center;
+	font-size: 22pt;
+	user-select: none;
+}
+
+.texto{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15pt;
+	text-align: justify;
+}
+
+.imagens{
+	/*border: 1px solid blue;*/
+	background: black;
+	border-top: 0px;
+	padding: 15px;
+	display: flex;
+	background: #0f0521;
+	height: 100vh;
+	/*flex-direction: column;*/
+	justify-content: center;
+	background-image: url(../../imgs/fundo_inicio.svg);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/*.im{
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	margin: 15px;
+	background-image: url(../../imgs/fundo-03.svg);
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
+}*/
+/*.m1{
+	margin-right: 35px;
+	background-image: url(../../imgs/celulas-03.png);
+}
+.m2{
+	background-image: url(../../imgs/celulas-04.png);
+}
+*/
+.conteudo{	
+	/*border: 1px solid red;*/
+	border-top: 0px;
+	background: white;
+	padding: 15px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+.opcoes{
+	/*border: 1px solid red;*/
+	border-top: 0px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	background: white;
+}
+
+
+.cells{
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	/*border: 1px solid blue;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.opcoes a>*{
+	pointer-events: none;
+}
+.opcoes a{
+	cursor: pointer;
+}
+.cell{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid blue;
+	margin: 20px;
+}
+
+
+
+.animal{
+	background-image: url(../../imgs/celulas_animal.svg);
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.vegetal{
+	background-image: url(../../imgs/celulas_vegetal.svg);
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.mitose{
+	background-image: url(../../imgs/mitose.svg);
+	background-size: 150%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.meiose{
+	background-image: url(../../imgs/meiose.svg);
+	background-size: 140%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.respiracao{
+	background-image: url(../../imgs/mitocondria.svg);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+@media only screen and (max-width: 1150px){
+	.texto{
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 15pt;
+		text-align: justify;
+	}
+	.cells{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	
+	.sec2{
+		background-size: 140%;
+		background-position: top; 
+	}
+	.logo{
+		width: 15%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.texto{
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 15pt;
+		text-align: justify;
+	}
+	.cells{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.imagens{
+		flex-direction: column;
+		align-items: center;
+		background-size: 150%;
+	}
+	.m1{
+		margin: 0;
+	}
+	.welcome_1{
+		font-size: 44pt;
+	}
+	.welcome_2{
+		font-size: 27.74pt;
+	}
+	.welcome_3{
+		font-size: 13.93pt;
+	}
+	.sec2{
+		background-size: 135%;
+		background-position: top;
+	}
+	.logo{
+		width: 20%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+}
+
+
+@media only screen and (max-width: 620px){
+	.texto{
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 13pt;
+		text-align: justify;
+	}
+	.cells{
+		margin-left: 0%;
+		margin-right: 0%;
+		flex-direction: column;
+	}
+	.opcoes{
+		align-items: center;
+	}
+}
+
+
+/*.welcome_1{
+	font-family: 'Aqua';
+	font-size: 66.6pt;
+}
+.welcome_2{
+	font-family: 'Aqua';
+	font-size: 42pt;
+	margin-bottom: 10px;
+}
+.welcome_3{
+	font-family: 'Aqua';
+	font-size: 20.9pt;
+}*/
+
+
+@media only screen and (max-width: 420px){
+	.sec2{
+		/*border: 1px solid red;*/
+		background-size: 180%;
+		background-position: top;
+		/*padding: 5px;*/
+	}
+	.texto{
+		/*margin-left: 0;*/
+	}
+	.welcome_1{
+		font-size: 32pt;
+	}
+	.welcome_2{
+		font-size: 20.1pt;
+	}
+	.welcome_3{
+		font-size: 9.6pt;
+	}
+	.sec2{
+		/*border: 1px solid red;*/
+		background-size: 200%;
+		background-position: top;
+		/*padding: 5px;*/
+	}
+	.logo{
+		width: 20%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.texto{
+		margin-left: 5%;
+		margin-right: 10%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 13pt;
+		text-align: justify;
+	}
+	.conteudo .texto{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.cells{
+		margin-left: 0%;
+		margin-right: 0%;
+		flex-direction: column;
+	}
+	.opcoes{
+		align-items: center;
+	}
+	.sec2{
+		/*border: 1px solid red;*/
+		background-size: 180%;
+		background-position: top;
+		/*padding: 5px;*/
+	}
+	.logo{
+		width: 20%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+}
+
