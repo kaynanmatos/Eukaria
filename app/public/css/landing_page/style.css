@@ -345,7 +345,7 @@ svg{
 	.anima5{
 		height: 120vh;
 		top: 0;
-		left: 0;
+		left: 5%;
 	}
 	.anima2{
 		height: 120vh;
@@ -371,5 +371,11 @@ svg{
 		height: 120vh;
 		top: -5%;
 		right: -5%;
+	}
+}
+
+@media only screen and (min-height: 760px){
+	.anima5{
+		left: -7%;
 	}
 }

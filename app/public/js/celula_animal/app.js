@@ -18,8 +18,8 @@ function texto_mitocondria(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= 'Nulla at diam a quam malesuada cursus ac eget augue. In vitae convallis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus eu leo ut fringilla. Ut finibus auctor nibh vel tempus. Integer sodales purus at accumsan aliquam. Pellentesque ornare sagittis est, a viverra dolor imperdiet eu. Mauris sit amet ultricies lectus. Fusce et lobortis nibh. Etiam nec nisi ornare, egestas augue sed, congue arcu. Vestibulum fringilla est a ante pulvinar scelerisque. Quisque lacinia porttitor vulputate. Praesent eget posuere ipsum. Nunc varius ligula et congue pharetra. Sed felis purus, euismod vel lacus ut, efficitur ultrices sem. In lacinia viverra malesuada.'
-	tx2.innerHTML= 'Sed blandit blandit consequat. Cras maximus, purus nec congue gravida, metus nisl tempus dolor, sed maximus lectus diam ut nulla. Cras consequat, urna ut cursus feugiat, leo ex feugiat lectus, ac eleifend turpis nibh ut sapien. Fusce lacinia est et nulla posuere, eu vestibulum turpis vestibulum. Nulla imperdiet ipsum a diam tempor, vel tincidunt mauris ullamcorper. Suspendisse potenti. Sed vitae eros et sapien tempor feugiat.';
+	tx1.innerHTML= 'Mitocôndrias são organelas que estão presentes tanto em células animais quanto em vegetais, mas apenas em Eucariontes. Elas ficam no citoplasma das células. São extremamente complexas, possuindo até mesmo um material genético próprio, chamado DNA Mitocondrial.'
+	tx2.innerHTML= 'São vitais para a sobrevivência dos seres vivos, pois estas têm como principal função a produção de energia, através da quebra da molécula de glicose, no processo chamado de <span onclick="window.location.href=`/respiracao_celular`">respiração celular.</span>';
 }
 
 function texto_complex(){
@@ -31,8 +31,8 @@ function texto_complex(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "In malesuada eget nulla sed iaculis. Aliquam ut viverra mi. Donec neque arcu, viverra eu leo ut, ultricies cursus orci. Nullam ut erat eget neque mollis convallis. Maecenas ut ipsum ac odio tincidunt scelerisque eget id nibh. Ut id molestie neque. Sed pretium viverra nulla, vitae placerat lectus sagittis et. Praesent a accumsan magna, et maximus magna. Vivamus tempor, ligula eget bibendum facilisis, libero lacus dictum leo, ut congue erat nibh vel libero. Duis at nunc lacus. Pellentesque vitae dui eu ipsum maximus mollis. Vivamus suscipit turpis est, varius ultrices mi vestibulum eu. Phasellus ac molestie risus. Nullam augue leo, cursus sed faucibus ut, blandit eu est. Nunc quis viverra purus.";
-	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed nulla sem. Nulla facilisi. Integer pellentesque lorem at risus dignissim, quis interdum odio sagittis. Sed auctor efficitur sem. Integer elementum ut mauris ut fringilla. Donec id lacus sit amet orci finibus dapibus sit amet et purus. Duis nec libero mollis, mollis diam a, scelerisque nisi.";
+	tx1.innerHTML= "O complexo de Golgi é uma organela presente em células animais e vegetais procariontes, se localizando no citoplasma e geralmente perto do núcleo celular."
+	tx2.innerHTML= "  Sua principal função é a secretar proteínas que são produzidas no retículo endoplasmático liso e rugoso, sendo essas proteínas muito importantes para as funções das células. Também é responsável por produzir os lisossomos e os peroxissomos.";
 }
 
 function texto_reticul(){
@@ -44,9 +44,10 @@ function texto_reticul(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut magna pulvinar, vulputate justo vulputate, euismod elit. Sed tristique ex id enim laoreet viverra. Etiam vel efficitur erat, sit amet molestie orci. Donec et ullamcorper tortor, id ultricies erat. Mauris quis sollicitudin lorem, id placerat eros. Nam tristique feugiat lacus ut sollicitudin. Pellentesque nec ante elit. Morbi scelerisque eget mi id ullamcorper. Integer dictum pulvinar mi sit amet posuere. Duis tortor justo, sagittis convallis sapien a, luctus blandit ipsum. Quisque in magna aliquam, convallis augue quis, tristique leo.";
-	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut magna pulvinar, vulputate justo vulputate, euismod elit. Sed tristique ex id enim laoreet viverra. Etiam vel efficitur erat, sit amet molestie orci. Donec et ullamcorper tortor, id ultricies erat. Mauris quis sollicitudin lorem, id placerat eros. Nam tristique feugiat lacus ut sollicitudin. Pellentesque nec ante elit. Morbi scelerisque eget mi id ullamcorper. Integer dictum pulvinar mi sit amet posuere. Duis tortor justo, sagittis convallis sapien a, luctus blandit ipsum. Quisque in magna aliquam, convallis augue quis, tristique leo.";
+	tx1.innerHTML= "O retículo endoplasmático é uma organela muito grande, presente em todas as células eucariontes, que forma um complexo sistema de “tubos”, que pode, percorrer toda a célula. Também envolve o núcleo celular, estando muitas vezes conectado diretamente a este.";
+	tx2.innerHTML= "É possível observar uma divisão entre duas partes distintas desta organela: o retículo endoplasmático liso (responsável pela produção de lipídeos, fosfolipídeos e até hormônios, dependendo da célula) e o retículo endoplasmático liso (chamado assim por estar coberto por ribossomos, sendo sua principal função a produção de proteínas).";
 }
+
 
 function texto_riboss(){
 	tx1.innerHTML= '';
@@ -57,9 +58,10 @@ function texto_riboss(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Donec at mi ac nunc commodo porta. Maecenas quis lacinia nibh. Morbi sit amet metus cursus, consequat nisl vitae, congue orci. Morbi nec mollis purus, at vestibulum ex. Nullam sed neque pharetra, finibus diam eu, dictum ante. Vestibulum ut metus lobortis, molestie ligula eu, iaculis massa. Proin sit amet purus sit amet odio consequat laoreet eget eu arcu. Nunc accumsan lectus eget ipsum tincidunt facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed suscipit vehicula orci, at tincidunt diam luctus sit amet. Morbi fringilla varius tortor, sed scelerisque diam ultrices sed. Nullam iaculis a sapien vitae fringilla.little betters any days ooh yeah";
-	tx2.innerHTML= "Donec at mi ac nunc commodo porta. Maecenas quis lacinia nibh. Morbi sit amet metus cursus, consequat nisl vitae, congue orci. Morbi nec mollis purus, at vestibulum ex. Nullam sed neque pharetra, finibus diam eu, dictum ante. Vestibulum ut metus lobortis, molestie ligula eu, iaculis massa. Proin sit amet purus sit amet odio consequat laoreet eget eu arcu. Nunc accumsan lectus eget ipsum tincidunt facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed suscipit vehicula orci, at tincidunt diam luctus sit amet. Morbi fringilla varius tortor, sed scelerisque diam ultrices sed. Nullam iaculis a sapien vitae fringilla.";
+	tx1.innerHTML= "Ribossomos estão presentes em todos os indivíduos vivos, sejam estes procariontes ou eucariontes. Estão no citoplasma e no retículo endoplasmático rugoso das células, sendo pequenas estruturas que lembram granulado.";
+	tx2.innerHTML= " Sua principal função é a síntese de proteína, sendo essenciais para o crescimento e manutenção da célula.";
 }
+
 
 function texto_lissos(){
 	tx1.innerHTML= '';
@@ -70,7 +72,8 @@ function texto_lissos(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Morbi bibendum lorem sed enim bibendum scelerisque. Cras blandit, ligula sit amet rutrum egestas, turpis metus dictum dolor, a scelerisque elit eros in tortor. Aenean non tellus quis neque tincidunt efficitur. Pellentesque in lorem turpis. Nullam ut vestibulum diam, at consectetur ligula. Vestibulum ut mauris justo. Integer eget urna nisi. Phasellus tincidunt tellus nec felis efficitur dictum. Integer iaculis, nisi id ultrices aliquet, ligula odio commodo ipsum, vel varius tellus enim et lacus. Vestibulum vehicula venenatis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula et pellentesque mollis. Morbi non purus ornare, pharetra ipsum sollicitudin, dictum urna.";
+	tx2.innerHTML= "Sua principal função está na degradação e digestão de partes da célula (uma forma de reciclagem) e de partículas exteriores.";
+	tx1.innerHTML= "Lisossomos estão presentes em quase todas as células eucariontes. Estes se localizam no citoplasma de célula, e são formados pelo Complexo de Golgi.";
 }
 
 function texto_peroxiss(){
@@ -82,8 +85,7 @@ function texto_peroxiss(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus porttitor eros, quis interdum mi finibus ut. Curabitur nisi nibh, fermentum vel interdum tincidunt, scelerisque eu neque. Nam ultrices porta justo sit amet fringilla. Maecenas erat dolor, viverra sit amet dolor at, pharetra feugiat nunc. Integer ornare eros quis gravida sodales. Sed condimentum et velit eget lobortis. Vivamus erat ante, commodo in magna non, cursus egestas eros. Proin purus orci, euismod non erat ut, iaculis vulputate augue. Donec justo libero, pellentesque a dignissim id, luctus eget purus. Vivamus a lacus vel risus vehicula mollis. Sed blandit finibus sem, non pellentesque felis tincidunt in. Donec vel laoreet mi. Aliquam sed mattis dui.";
-	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus porttitor eros, quis interdum mi finibus ut. Curabitur nisi nibh, fermentum vel interdum tincidunt, scelerisque eu neque. Nam ultrices porta justo sit amet fringilla. Maecenas erat dolor, viverra sit amet dolor at, pharetra feugiat nunc. Integer ornare eros quis gravida sodales. Sed condimentum et velit eget lobortis. Vivamus erat ante, commodo in magna non, cursus egestas eros. Proin purus orci, euismod non erat ut, iaculis vulputate augue. Donec justo libero, pellentesque a dignissim id, luctus eget purus. Vivamus a lacus vel risus vehicula mollis. Sed blandit finibus sem, non pellentesque felis tincidunt in. Donec vel laoreet mi. Aliquam sed mattis dui.";
+	tx1.innerHTML= "Peroxissomos estão presentes no citoplasma de células animais e vegetais, e são basicamente bolsas de enzimas digestivas. Porém, diferente dos lisossomos, os peroxissomos tem função de degradar principalmente água oxigenada, substância tóxica para a célula. Isso ocorre através da enzima Catalase.";
 }
 
 function texto_centri(){
@@ -95,8 +97,8 @@ function texto_centri(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Maecenas condimentum faucibus tincidunt. Proin sed luctus turpis, a porta lorem. Aenean et magna elit. Vivamus posuere eget ex et aliquam. Sed lectus mi, scelerisque eget purus a, tempus scelerisque orci. Pellentesque quis magna interdum, tempor magna id, convallis massa. Proin porta risus nec ipsum scelerisque gravida.";
-	tx2.innerHTML= "Maecenas condimentum faucibus tincidunt. Proin sed luctus turpis, a porta lorem. Aenean et magna elit. Vivamus posuere eget ex et aliquam. Sed lectus mi, scelerisque eget purus a, tempus scelerisque orci. Pellentesque quis magna interdum, tempor magna id, convallis massa. Proin porta risus nec ipsum scelerisque gravida.";
+	tx1.innerHTML= 'Maecenas condimentum faucibus tincidunt. Proin sed luctus turpis, a porta lorem. Aenean et magna elit. Vivamus posuere eget ex et aliquam. Sed lectus mi, scelerisque eget purus a, tempus scelerisque orci. Pellentesque quis magna interdum, tempor magna id, convallis massa. Proin porta risus nec ipsum scelerisque gravida.';
+	tx2.innerHTML= 'Sua função é auxiliar na <span onclick="window.location.href=`/mitose`">mitose</span> e <span onclick="window.location.href=`/meiose`">meiose</span> , formando o fuso acromático, estrutura que conduzem os cromossomos durante a separação da membrana plasmática.';
 }
 
 function texto_membr(){
@@ -108,8 +110,8 @@ function texto_membr(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Etiam sed nisl eros. Aliquam et nunc ut arcu vulputate ullamcorper a eget nisl. Praesent eu tincidunt metus, ac ultricies diam. Sed bibendum posuere nunc. Integer at est consequat, aliquam libero sed, ultricies orci. Sed sodales odio at ligula mattis, ac iaculis libero scelerisque. Mauris a quam at urna posuere gravida. In iaculis justo sed lorem facilisis, id eleifend metus malesuada. Donec laoreet iaculis pharetra. Ut ac nisi justo. Quisque ut ipsum ex. Duis consequat, justo interdum consequat molestie, sem mauris molestie mi, at convallis nulla mauris id libero. Morbi luctus odio in luctus maximus. Praesent imperdiet est enim, non sodales erat malesuada nec. Maecenas aliquet nulla id sapien sodales, vel aliquet nisi lobortis. Mauris et nisl odio.";
-
+	tx1.innerHTML= "A membrana plasmática é uma estrutura presente em todas as células, sendo a responsável por proteger o interior da célula do exterior, controlando a entrada e saída de substâncias, partículas e etc.";
+	tx2.innerHTML= "A composição da membrana é de uma dupla camada fosfolipídica e de proteínas, que possui uma parte polar (que tem afinidade com a água, sendo voltada para o exterior da camada) e outra apolar (que não tem afinidade com a água, sendo virada para o interior da camada).";
 }
 
 function texto_cito(){
@@ -121,7 +123,7 @@ function texto_cito(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "SMorbi bibendum lorem sed enim bibendum scelerisque. Cras blandit, ligula sit amet rutrum egestas, turpis metus dictum dolor, a scelerisque elit eros in tortor. Aenean non tellus quis neque tincidunt efficitur. Pellentesque in lorem turpis. Nullam ut vestibulum diam, at consectetur ligula. Vestibulum ut mauris justo. Integer eget urna nisi. Phasellus tincidunt tellus nec felis efficitur dictum. Integer iaculis, nisi id ultrices aliquet, ligula odio commodo ipsum, vel varius tellus enim et lacus. Vestibulum vehicula venenatis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula et pellentesque mollis. Morbi non purus ornare, pharetra ipsum sollicitudin, dictum urna.";
+	tx1.innerHTML= " O citoplasma é “recheio” das células eucariontes e procariontes. É nela onde ficam mergulhados diversas organelas e o núcleo celular. É constituído por uma substância chamada Citosol, que é composto por água, proteínas, açucar e sais minerais.";
 }
 
 function texto_celula(){
@@ -133,10 +135,8 @@ function texto_celula(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	tx3.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	tx4.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx1.innerHTML= 'Células animais são aquelas que compõem os seres do reino animal. São eucariontes, ou seja, possuem um núcleo rodeado pela Carioteca.';
+	tx2.innerHTML= 'A diferença destas para as <span onclick="window.location.href=`/celula_vegetal`">células vegetais</span> está na presença e ausência de algumas organelas. Por exemplo, as células vegetais, ao contrário das animais, não possuem centríolos, mas possuem cloroplastos, vacúolos e glioxissomos, além, de parede celular. ';
 }
 
 function texto_nucleo(){
@@ -148,10 +148,8 @@ function texto_nucleo(){
 	tx6.innerHTML= '';
 	tx7.innerHTML= '';
 
-	tx1.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	tx3.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	tx4.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx1.innerHTML= "A presença do núcleo celular é o que diferencia as células eucariontes e procariontes. Nele fica armazenado o material genético da célula, como o DNA e o RNA, que são usados para a produção de proteínas e lipídeos.";
+	tx2.innerHTML= "O núcleo pode ser dividido entre nucleoplasma (onde fica maior parte do material genético da célula) e o nucléolo, onde são produzidos os RNAs ribossômicos.";
 }
 
 function trocar_clique(valor){

@@ -16,7 +16,7 @@ function mudar_botao(){
 		check=true;
 	}
 }
-function separacao(citocinese){
+
   const separação_citoplasma= anime({
     targets: '.citoplasma',
     easing: 'linear',
@@ -38,7 +38,7 @@ function separacao(citocinese){
       delay: 3900,
       value: 0
     },
-    autoplay: citocinese
+    autoplay: false
   })
 
   const separação_membrana=anime({
@@ -62,14 +62,14 @@ function separacao(citocinese){
       delay: 4000,
       value: 0
     },
-    autoplay: citocinese
+    autoplay: false
   })
   const separada=anime({
     targets: '.cell_filha',
     easing: 'linear',
     opacity: 1,
     delay: 3990,
-    autoplay: citocinese
+    autoplay: false
   })
 
   const sep11=anime({
@@ -78,7 +78,7 @@ function separacao(citocinese){
     easing: 'linear',
     delay: 4500,
     duration: 1000,
-    autoplay: citocinese
+    autoplay: false
   })
   const sep12=anime({
     targets: '.cito_esquerda',
@@ -86,7 +86,7 @@ function separacao(citocinese){
     easing: 'linear',
     delay: 4500,
     duration: 1000,
-    autoplay: citocinese
+    autoplay: false
   })
 
   const sep21=anime({
@@ -95,7 +95,7 @@ function separacao(citocinese){
     easing: 'linear',
     delay: 4500,
     duration: 1000,
-    autoplay: citocinese
+    autoplay: false
   })
   const sep22=anime({
     targets: '.cito_direita',
@@ -103,7 +103,7 @@ function separacao(citocinese){
     easing: 'linear',
     delay: 4500,
     duration: 1000,
-    autoplay: citocinese
+    autoplay: false
   })
 
   const sep2=anime({
@@ -112,9 +112,9 @@ function separacao(citocinese){
     delay: 4500,
     easing: 'linear',
     duration: 1000,
-    autoplay: citocinese
+    autoplay: false
   })
-}
+
 
 function start(){
   mudar_botao();
@@ -130,16 +130,16 @@ botao_pausa.onclick= stop;
 
   //Prófase
 
-const condensar=anime({
+var condensar=anime({
   targets: '.dna',
   d: 'M418.249,348.85 c-3.3-0.4,1.307,0.694-1.593-1.006c-2.9-1.6,3.856,2.925,3.656-0.375c0-0.4,5.269-0.075,5.469-0.375 c0.2-0.4-2.944-1.965-2.544-2.165c2.2-1.2-10.612,1.54-8.112,1.54c0.7,0-3.684-3.869-3.084-3.469c1.7,1,1.8,3.5,1.7,5.5 c2.3-0.3,4.5-0.6,6.8-0.9c0.2,0.9,0.1,1.8-0.3,2.6c0.2-0.6,0.7-1.1,1.2-1.5c0.3,2-0.11-3.457-1.41-1.857 c-0.2,0.3-0.781,3.241-1.181,3.341s2.106,0.178,1.806-0.122c-2-1.4-7.115,1.138-6.715-1.262c0.4-2.6,3.7-3.8,6.3-3.4 c0.4,0.1,0.8,0.2,1,0.5s0.1,0.6,0,0.9c-0.4,1.5-1.5,2.8-3,3.4c-0.6,0.3-1.3,0.4-2,0.2c-1.6-0.3-2.7-2-2.8-3.7 c-0.1-2,1.3-4,3.2-4.6c1.9-0.6,4.3,0.4,5,2.3s-0.4,4.3-2.3,4.9c-0.9,0.2-2,0-2.3-0.9c-0.2-0.7,0.4-1.5,1.1-1.7s1.5-0.1,2.2,0.2 c2.3,0.7,4.5,2,6.2,3.7c0.6,0.6-8.172-3.806-8.072-3.006c0.3,2.1,3.191-0.278,1.191,0.122c-3.3,0.6-3.519,8.785-5.119,5.785 c-0.6-1.1-0.7-2.3-0.5-3.5c0.3-2.2,1.7-4.4,3.8-5.3c2.1-1,4.7-0.6,6.3,0.9c0.7,0.7,1.2,1.5,1.2,2.5c-0.1,1.2-0.9,2.1-1.8,2.9 c-2.6,2.3-0.494-5.55-3.794-4.55c-1.7,0.5,2.584,0.725,1.284-0.575c-0.5-0.5-4.164,5.086-4.364,4.386 c-1.1-4.2-6.127-5.161-2.327-7.361c1.4-0.9,3.2-1.5,4.8-1c1.1,0.4,1.8,1.3,2.5,2.2c1.5,1.8,2.8,4.1,2.4,6.4 c-0.3,1.4-4.697-1.944-5.697-0.844c-2.5,2.6,4.056-3.75,0.656-2.75c-1.6,0.5-0.356,4.406-1.656,3.406 c-0.7-0.5-0.013,0.05-0.313-0.75c-1.6-3.9-0.587,3.894,1.313,0.094c1.1-2.2-3.152-1.841-0.652-2.041c1-0.1-2.65-7.115-1.75-6.715 c3.7,1.6,6.6,4.9,7.6,8.8c-2.3,0.1-4.7-0.9-6.3-2.5c-0.7-0.7-1.3-1.6-1.3-2.5c-0.1-1.3,0.8-2.4,1.8-3.3c1.9-1.7,1.1,3.4,2.6,5.5 c1,1.4,4.8-2.5,4-0.9c-1.3,2.4-3.7,4.4-6.4,4.2c-0.6,0-1.1-0.2-1.6-0.5c-1.3-1.1-0.4-3.2,0.9-4.3c0.8-0.7,1.8-1.4,2.9-1.5 s2.3,0.4,2.7,1.4c0.4,0.9,0.1,1.9-0.3,2.7c-1.3,2.9-4.3,4.9-7.5,5.1c-0.6,0-1.4-0.1-1.6-0.7c-0.1-0.4,0-0.8,0.1-1.1 c0.6-1.6,1.4-3.1,2.6-4.3c1.2-1.1,3-1.8,4.6-1.4c2.8,0.7,4.1,4.2,3,6.9c-1,2.7,0.841-6.499-1.859-5.699 c-2.2,0.7,2.531-2.007,0.931-3.707c-0.6-0.7-1.984,6.419-2.284,5.519c-0.8-2.5-2.266,3.234-1.466,0.734 c0.8-2.5-6.922-7.647-4.322-7.447c1,0,2,0.4,3,0.9c2.6,1.2,5.1,3,6.2,5.6c1.4,3.4-6.766-8.811-9.566-6.511 s3.681,0.343-0.019,0.343c-2.1,0,1.101,1.461-0.199-0.139c-1.1-1.3,0.819,1.356,0.719-0.344c-0.2-3.2-2.069,2.975-0.969-0.125 s1.987,7.944,5.188,7.344c2.7-0.5-2.653-9.969-0.153-8.969c5.8,2.4-5.554,5.725,0.246,8.125',
   duration: 1000,
   easing: 'linear',
   opacity: 0,
   autoplay: false
-})
+});
 
-const condensar2=anime({
+var condensar2=anime({
   targets: '.acido_nucl1',
   d: 'M401.86,376.251 c0.417,2.084-7.922-12.762-6.575-11.118c0.967,1.18,2.134,2.182,3.35,3.104c4.736,3.591,10.323,6.051,16.169,7.12 c1.265,0.231,2.886,0.232,3.465-0.916c0.111-0.22,0.168-0.483,0.081-0.713c-0.16-0.425-0.697-0.545-1.151-0.576 c-2.509-0.174-5.001,0.402-7.473,0.865c-2.472,0.463-5.044,0.812-7.482,0.195c-2.438-0.617-4.731-2.412-5.236-4.876 c-0.05-0.246-0.081-0.51,0.018-0.74c0.258-0.599,1.112-0.552,1.747-0.404c1.837,0.429,3.674,0.857,5.512,1.286 c2.715,0.633,5.477,1.285,7.882,2.693c2.015,1.18,3.792,2.892,6.065,3.425c1.245,0.292-16.322,0.746-15.047,0.654 c0.64-0.046,1.507-2.298,1.563-2.938c-6.357-2.951,6.056-4.42-0.745-6.114c-2.164-0.539-4.456-0.992-6.173-2.417 c-1.469-1.219-2.331-3.005-3.08-4.761c-1.333-3.123,9.499,10.829,7.314,8.229c-0.644-0.766-3.501,2.368-3.63,1.375 c-0.209-1.616,0.015-0.43,1.188-1.563c1.654-1.598-0.39,1.473,0.326-0.714c-2.064,0.473-4.258-4.517-4.887-2.495 c-0.39,1.254-3.394-4.119-3.252-2.813c0.581,5.345,7.179,3.535,3.313,7.271c-0.352,0.341,1.218,0.459,1.125,0.94 c-0.191,0.982-3.39-4.396-2.5-3.94c4.562,2.336,0.747,4.796,4.049,8.716c0.73,0.866,1.475,1.739,2.405,2.386 c1.034,0.72,2.252,1.128,3.472,1.445c2.118,0.55,4.301,0.849,6.489,0.89c0.532,0.01,1.092-0.002,1.554-0.266 c0.45-0.256-8.271-6.865-7.907-7.234c1.081-1.095,4.926,2.841,6.438,3.125s-9.524-7.504-8.183-6.75',
   easing: 'linear',
@@ -148,7 +148,7 @@ const condensar2=anime({
   autoplay: false
 })
 
-const condensar3=anime({
+var condensar3=anime({
   targets: '.acido_nucl2',
   d: 'M436.013,358.805 c0.088-0.091-4.584,4.682,3.821,8.245c-0.4-4.8-5.433-2.583-5.833-7.383c-0.1-1.3-0.433,4.833-0.833,3.633 c-0.2-0.7,0.767-5.867,0.467-6.567c-1.9-3.9,3.433,2.767,1.533-1.133c-0.2-0.3-3.101-2.538-2.801-2.838 c2.5,0-3.099-1.028-1.699,1.072c4.6,6.8-3.026-12.733,0.674-5.333c2.5,5.1,4.7,10.5,5.1,16.2c0.2,2.1,3.026-6.8,1.726-5.2 c-1.4,1.7,2.42,1.3,0.22,0.9s-1.679,2.941-3.479,1.641c-3.1-2.2,1.059,1.359-1.741-1.341c-4.2-4.1,8.7,3.4,5-1.2 c-2.5-3.1-1.038,4.9-2.638,1.2c-1-2.3-0.704,2.941,1.096,1.341c1.5-1.3-4.516-4.941-2.616-4.141 c2.2,0.9-2.008,0.367-0.008,1.767c8,5.8-7.767-9.433-0.367-2.933c3.3,2.9,3.808,3.367,7.508,5.767 c-2.808-4.6-7.374-3.4-2.974-3',
   duration: 1200,
@@ -157,7 +157,7 @@ const condensar3=anime({
   autoplay: false
 })
 
-const cromossomos=anime({
+var cromossomos=anime({
   targets: '.cromossomo',
   opacity: 1,
   duration: 1000,
@@ -165,7 +165,7 @@ const cromossomos=anime({
   autoplay: false
 })
 
-const desaparece=anime({
+var desaparece=anime({
   targets: '.nucleotideo',
   opacity: 0,
   duration: 200,
@@ -173,16 +173,7 @@ const desaparece=anime({
   autoplay: false
 })
 
-  //Prometáfase
-
-const nucleo=anime({
-  targets: '.nucl',
-  opacity: 0,
-  duration: 1000,
-  autoplay: false
-})
-
-const centr1=anime({
+var centr1=anime({
   targets: '.centr1',
   translateY: '-11%',
   translateX: [
@@ -190,32 +181,41 @@ const centr1=anime({
     {value: '6%'}
   ],
   easing: 'linear',
-  duration: 5000 ,
+  duration: 2500 ,
   autoplay: false
 })
 
-const centr2=anime({
+var centr2=anime({
   targets: '.centr2',
   translateY: '5%',
   translateX: '-3%',
   easing: 'linear',
-  duration: 5000,
+  duration: 2500,
   autoplay: false
 })
 
-const mito_1=anime({
+  //Prometáfase
+
+var nucleo=anime({
+  targets: '.nucl',
+  opacity: 0,
+  duration: 1000,
+  autoplay: false
+})
+
+var mito_1=anime({
   targets: '.mito1',
   easing: 'linear',
-  duration: 5000,
+  duration: 3000,
   translateY: '-8%',
   translateX: '-3%',
   autoplay: false
 })
 
-const mito_2=anime({
+var mito_2=anime({
   targets: '.mito2',
   easing: 'linear',
-  duration: 5000,
+  duration: 3000,
   translateY: '2%',
   autoplay: false
 })
@@ -294,6 +294,52 @@ const mover_esq=anime({
   autoplay: false,
   translateX: '-12%'
 })
+const mover_dir_mito1=anime({
+  targets: '.mito1',
+  easing: 'linear',
+  duration: 4200,
+  autoplay: false,
+  translateX: '15%',
+  translateY:{
+    value: '-6%',
+    duration:10
+  }
+})
+const mover_esq_mito2=anime({
+  targets: '.mito2',
+  easing: 'linear',
+  translateY: {
+    value: '2%',
+    duration:10
+  },
+  duration: 4300,
+  autoplay: false,
+  translateX: '-12%'
+})
+const mover_dir_Cen1=anime({
+  targets: '.centr1',
+  easing: 'linear',
+  translateY: {
+    value:'-11%',
+    duration:10
+  },
+  duration: 4300,
+  autoplay: false,
+  translateX: '15%'
+})
+
+const mover_esq_Cen2=anime({
+  targets: '.centr2',
+  easing: 'linear',
+  translateY: {
+    value:'5%',
+    duration:10
+  },
+  duration: 4300,
+  autoplay: false,
+  translateX: '-12%'
+})
+
 const mover_dir=anime({
   targets: '.mover_dir',
   easing: 'linear',
@@ -301,6 +347,7 @@ const mover_dir=anime({
   autoplay: false,
   translateX: '15%'
 })
+
 
 const desfazer_deform=anime({
   targets: '.deformado',
