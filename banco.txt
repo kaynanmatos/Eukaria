@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 create database Eukaria;
 
 use Eukaria;
@@ -12,3 +13,19 @@ insert into sugestoes (user_name, user_email, sugestao_texto) values
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY ''
 
 
+=======
+create database Eukaria;
+
+use Eukaria;
+
+create table sugestoes (id_sugestao int not null primary key auto_increment,
+user_name varchar(100), user_email varchar(100), data_sugestao timestamp default
+current_timestamp, sugestao_texto text);
+
+insert into sugestoes (user_name, user_email, sugestao_texto) values
+ ('Eric Kaynan', 'erickaynan11@gmail.com', 'terminar o site');
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY ''
+
+
+>>>>>>> 808091f443a972e9b4f9014bdf5fbf59a5fb763a
