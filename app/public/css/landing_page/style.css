@@ -19,8 +19,6 @@ body{
 
 }
 
-
-
 .hero{
 	height: 120vh;
 	width: 100%;
@@ -106,13 +104,16 @@ svg{
 	height: 120vh;
 	position: absolute;
 }
+
 .anima10{
 	/*transform: rotate(50deg);*/
 	transform-origin: 78% 35%;
 }
 .anima12{
-	/*transform: rotate(50deg);*/
+	height: 120vh;
+	position: absolute;
 	transform-origin: 26% 95%;
+	/*border: 1px solid red;*/
 }
 .anima13{
 	/*transform: rotate(50deg);*/
@@ -208,6 +209,11 @@ svg{
 		top: 25%;
 		right: -20%;
 	}
+	.anima12{
+		height: 50vh;
+		right: -50%;
+		top: 25%;
+	}
 }
 @media only screen and (min-width: 501px){
 	.logo{
@@ -248,6 +254,11 @@ svg{
 	.anima11{
 		height: 55vh;
 		top: 20%;
+	}
+	.anima12{
+		height: 75vh;
+		right: -50%;
+		top: 15%;
 	}
 }
 @media only screen and (min-width: 650px){
@@ -290,6 +301,11 @@ svg{
 		top: 15%;
 		right: -20%;
 	}
+	.anima12{
+		height: 75vh;
+		right: -20%;
+		top: 15%;
+	}
 }
 @media only screen and (min-width: 800px){
 	.logo{
@@ -316,6 +332,11 @@ svg{
 		height: 65vh;
 		top: 15%;
 		right: -15%;
+	}
+	.anima12{
+		height: 90vh;
+		right: -10%;
+		top: 15%;
 	}
 	.anima3{
 		height: 80vh;
@@ -345,7 +366,7 @@ svg{
 	.anima5{
 		height: 120vh;
 		top: 0;
-		left: 0;
+		left: 5%;
 	}
 	.anima2{
 		height: 120vh;
@@ -357,6 +378,12 @@ svg{
 		height: 120vh;
 		top: -15%;
 		right: -5%;
+	}
+	.anima12{
+		height: 120vh;
+		position: absolute;
+		right: 0;
+		top: 0;
 	}
 	.anima3{
 		height: 120vh;
@@ -371,5 +398,11 @@ svg{
 		height: 120vh;
 		top: -5%;
 		right: -5%;
+	}
+}
+
+@media only screen and (min-height: 760px){
+	.anima5{
+		left: -7%;
 	}
 }

@@ -4,6 +4,11 @@
 	src: url("../../fontes/aqua.ttf");
 }
 
+@font-face{
+	font-family: 'Shkoder';
+	src: url('../../fontes/Shkoder_1989_Black.otf');
+}
+
 
 *{
 	padding: 0;
@@ -27,7 +32,9 @@ header{
 	/*margin-bottom: 5%;*/
 	background: #171127;
 }
-
+span{
+	color: #0c2461;
+}
 .m1{
 	/*border: 1px solid blue;*/
 	position: absolute;
@@ -97,16 +104,18 @@ h1{
 .op1{
 	font-size: 13pt;
 	/*left: 20%;*/
-	font-family: "Aqua";
+	font-family: "Shkoder";
 	color: #78c29c;
 	cursor: pointer;
+	/*margin-bottom: 15px;*/
 }
 .op2{
 	font-size: 10pt;
 	/*right: 20%;*/
-	font-family: "Aqua";
+	font-family: "Shkoder";
 	color: #171127;
 	cursor: pointer;
+	/*margin-bottom: 15px;*/
 }
 .op1:hover{
 	opacity: 0.9;
@@ -138,7 +147,7 @@ h1{
 .i1{
 	/*left: 28%;
 	top: 40px;*/
-	margin-top: 35px;
+	margin-top: 45px;
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
@@ -149,11 +158,10 @@ h1{
 	background: #171127;
 	/*right: 20%;
 	top: 40px;*/
-	margin-top: 35px;
+	margin-top: 45px;
 	height: 3px;
 	width: 70%;
 }
-
 .titulo{
 	text-align: center;
 }
